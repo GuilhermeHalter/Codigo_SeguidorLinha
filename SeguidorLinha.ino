@@ -26,7 +26,7 @@
 #define SPEED5 50                            // Valor de 0 a 255 para velocidade com a seguinte leitura do sensor (0 0 0 0 1 0)
 #define SPEED6 0                            // Valor de 0 a 255 para velocidade com a seguinte leitura do sensor (0 0 0 0 1 1)
 #define SPEED7 200                          // Valor de 0 a 255 para velocidade com a seguinte leitura do sensor (0 0 0 0 0 1)
-#define RUNTIME 21500                      // Valor para executar o percurso
+#define RUNTIME 8950                      // Valor para executar o percurso
  
 int vel_A = 200;
 int vel_B = 255;
