@@ -6,7 +6,6 @@
 #define PINENA 3
 #define PINENB 6
  
- 
 // Portas sensor QTR
 #define S1 A0
 #define S2 A1
@@ -14,7 +13,6 @@
 #define S4 A3
 #define S5 A4
 #define S6 A5
- 
  
 // Valores de ajustes para o seguidor de linha MIF
 #define TRESHOLD 700                       // Valor de referencia para cor da linha branca
@@ -31,9 +29,9 @@
 int vel_A = 200;
 int vel_B = 255;
 //Dados do PID são definidos
-int Ki = 0.3;  // Aumentando o Ki para corrigir o erro acumulado mais rapidamente
-int Kp = 0.9;  // Aumentando o Kp para maior reatividade nas curvas
-int Kd = 0.6;  // Aumentando o Kd para suavizar a reação nas curvas
+int Ki = 0.7;  // Aumentando o Ki para corrigir o erro acumulado mais rapidamente
+int Kp = 1.9;  // Aumentando o Kp para maior reatividade nas curvas
+int Kd = 0.7;  // Aumentando o Kd para suavizar a reação nas curvas
 int I = 0, P = 0, D = 0, PID = 0;
 int velesq = 0, veldir = 0;
 int erro, erro_anterior =0;
